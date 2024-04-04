@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+   <div class="container-principal " >
+    <div class="container-first">
+        <div class="container-input">
+            <div class="dados">
+                <p>peso </p>
+                <input type="text" id="peso" placeholder="(ex: 75.8)">
+            </div>
+            <div class="dados">
+                <p>Altura </p>
+                <input type="text" id="altura" placeholder="(ex: 1.73)">    
+            </div>    
+                           
+         </div>
+        <div class="container-button">
+            <button type="submit" id="calcular">Calcular</button>
+            <button type="submit" id="limpar">Limpar</button>
+        </div>
+        
+    </div>
+    
+    <div class="container-result" >
+        <span id="result">seu imc é: ${imc} <br> classificação : levemente acima do peso`</span>
+        <img src="img/tabela-imc.png" alt="" srcset="">
+        <button type="reset">Calcular Novamente</button>
+    </div>
+   </div>
+</body>
+</html>
